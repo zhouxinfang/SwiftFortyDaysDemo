@@ -90,11 +90,17 @@ class ViewController: UIViewController,UICollectionViewDataSource,KHWaterFallLay
         let imageUrl = URL.init(string: shop.image as String)
         if let url = imageUrl
         {
-            let nsd = NSData.init(contentsOf: url)
-            if let nsd = nsd
-            {
-                cell.imageView.image = UIImage.init(data: nsd as Data)
+            DispatchQueue.global().async
+                {
+                let nsd = NSData.init(contentsOf: url)
+                if let nsd = nsd
+                {
+                    DispatchQueue.main.async {
+                        cell.imageView.image = UIImage.init(data: nsd as Data)
+                    }
+                }
             }
+            
         }
         
         return cell;

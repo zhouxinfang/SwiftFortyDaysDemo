@@ -34,7 +34,7 @@ class KHWaterFallLayout: UICollectionViewLayout {
     static var kDefaultColunmCount:CGFloat = 2.0
 
     //每一列之间的间距
-    static var kDefaultColunmMargin:CGFloat = 10;
+    static var kDefaultColunmMargin:CGFloat = 12;
     
     //每一行之间的间距
     static var kDefaultRowMargin:CGFloat = 10;
@@ -73,7 +73,7 @@ class KHWaterFallLayout: UICollectionViewLayout {
     {
         if let delegate = delegate
         {
-            return Int(KHWaterFallLayout.kDefaultColunmCount)
+            return delegate.columnCount(waterFall: self)
         }
         else
         {
@@ -86,7 +86,15 @@ class KHWaterFallLayout: UICollectionViewLayout {
     {
         if let delegate = delegate
         {
-            return KHWaterFallLayout.kDefaultColunmMargin
+            let floatvalue = delegate.columnMargin?(waterFall: self)
+            if let floatvalue = floatvalue
+            {
+                return floatvalue
+            }
+            else
+            {
+                return KHWaterFallLayout.kDefaultColunmMargin
+            }
         }
         else
         {
@@ -98,7 +106,15 @@ class KHWaterFallLayout: UICollectionViewLayout {
     {
         if let delegate = delegate
         {
-            return KHWaterFallLayout.kDefaultRowMargin
+            let floatvalue = delegate.rowMargin?(waterFall: self)
+            if let floatvalue = floatvalue
+            {
+                return floatvalue
+            }
+            else
+            {
+                return KHWaterFallLayout.kDefaultRowMargin
+            }
         }
         else
         {
@@ -111,7 +127,16 @@ class KHWaterFallLayout: UICollectionViewLayout {
     {
         if let delegate = delegate
         {
-            return KHWaterFallLayout.kDefaultEdgeInsets
+            let edgeInsetd = delegate.edgeInsetd?(waterFall: self)
+            if let edgeInsetd = edgeInsetd
+            {
+                return edgeInsetd
+            }
+            else
+            {
+                return KHWaterFallLayout.kDefaultEdgeInsets
+            }
+            
         }
         else
         {
@@ -138,7 +163,7 @@ class KHWaterFallLayout: UICollectionViewLayout {
             {
                 let indexPath = IndexPath.init(item: index, section: 0)
                 let attributes = self.layoutAttributesForItem(at:indexPath)
-                self.attrsArray.add(attributes)
+                self.attrsArray.add(attributes as Any)
                 
             }
         }
