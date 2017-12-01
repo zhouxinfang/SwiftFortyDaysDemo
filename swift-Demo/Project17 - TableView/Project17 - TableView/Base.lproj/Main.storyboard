@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13173"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Project17___TableView" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="eMa-Jj-0Y5">
+                                <rect key="frame" x="0.0" y="40" width="375" height="627"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </tableView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nx2-cp-D6f">
+                                <rect key="frame" x="125" y="0.0" width="125" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="9JL-VZ-qCw"/>
+                                </constraints>
+                                <state key="normal" title="删除"/>
+                                <connections>
+                                    <action selector="deleteTableCell" destination="BYZ-38-t0r" eventType="touchUpInside" id="OCA-9K-TNQ"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BLn-5r-Gca">
+                                <rect key="frame" x="250" y="0.0" width="125" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="fBR-O3-cFL"/>
+                                </constraints>
+                                <state key="normal" title="编辑"/>
+                                <connections>
+                                    <action selector="editTableView" destination="BYZ-38-t0r" eventType="touchUpInside" id="YNT-BP-5x2"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qxa-Q9-AHi">
+                                <rect key="frame" x="0.0" y="0.0" width="125" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="deV-i3-DBX"/>
+                                </constraints>
+                                <state key="normal" title="添加"/>
+                                <connections>
+                                    <action selector="addTableCell" destination="BYZ-38-t0r" eventType="touchUpInside" id="oNJ-Yd-3bG"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="BLn-5r-Gca" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="6K6-oo-fA1"/>
+                            <constraint firstItem="BLn-5r-Gca" firstAttribute="leading" secondItem="nx2-cp-D6f" secondAttribute="trailing" id="DnE-4r-3k4"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="BLn-5r-Gca" secondAttribute="trailing" id="LU3-VD-51H"/>
+                            <constraint firstItem="nx2-cp-D6f" firstAttribute="leading" secondItem="qxa-Q9-AHi" secondAttribute="trailing" id="RgK-e5-adz"/>
+                            <constraint firstItem="eMa-Jj-0Y5" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="TDJ-Jg-x7U"/>
+                            <constraint firstItem="BLn-5r-Gca" firstAttribute="leading" secondItem="nx2-cp-D6f" secondAttribute="trailing" id="Utg-ej-QcO"/>
+                            <constraint firstItem="qxa-Q9-AHi" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="Uvt-xB-Aum"/>
+                            <constraint firstItem="qxa-Q9-AHi" firstAttribute="width" secondItem="nx2-cp-D6f" secondAttribute="width" id="Wot-FC-ncy"/>
+                            <constraint firstItem="nx2-cp-D6f" firstAttribute="width" secondItem="BLn-5r-Gca" secondAttribute="width" id="eGX-Ab-vWe"/>
+                            <constraint firstItem="eMa-Jj-0Y5" firstAttribute="top" secondItem="qxa-Q9-AHi" secondAttribute="bottom" id="l00-Rx-Zkr"/>
+                            <constraint firstItem="eMa-Jj-0Y5" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="lzq-wJ-hE7"/>
+                            <constraint firstItem="eMa-Jj-0Y5" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="pnG-nk-JOh"/>
+                            <constraint firstItem="qxa-Q9-AHi" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="rkk-DR-6lc"/>
+                            <constraint firstItem="nx2-cp-D6f" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="spD-oQ-Yne"/>
+                            <constraint firstItem="nx2-cp-D6f" firstAttribute="leading" secondItem="qxa-Q9-AHi" secondAttribute="trailing" id="zCc-ee-Vwg"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="tableView" destination="eMa-Jj-0Y5" id="3g6-Jg-ukz"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="117.59999999999999" y="118.29085457271366"/>
+        </scene>
+    </scenes>
+</document>

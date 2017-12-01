@@ -1,0 +1,559 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7864F7F41FAC3DD9005DE2FA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7864F7F31FAC3DD9005DE2FA /* AppDelegate.swift */; };
+		7864F7F61FAC3DD9005DE2FA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7864F7F51FAC3DD9005DE2FA /* ViewController.swift */; };
+		7864F7F91FAC3DD9005DE2FA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7864F7F71FAC3DD9005DE2FA /* Main.storyboard */; };
+		7864F7FB1FAC3DD9005DE2FA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7864F7FA1FAC3DD9005DE2FA /* Assets.xcassets */; };
+		7864F7FE1FAC3DD9005DE2FA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7864F7FC1FAC3DD9005DE2FA /* LaunchScreen.storyboard */; };
+		7864F8091FAC3DD9005DE2FA /* Project11___PhotoGestureTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7864F8081FAC3DD9005DE2FA /* Project11___PhotoGestureTests.swift */; };
+		7864F8141FAC3DD9005DE2FA /* Project11___PhotoGestureUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7864F8131FAC3DD9005DE2FA /* Project11___PhotoGestureUITests.swift */; };
+		7864F8211FAC4B86005DE2FA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7864F7F51FAC3DD9005DE2FA /* ViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7864F8051FAC3DD9005DE2FA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7864F7E81FAC3DD9005DE2FA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7864F7EF1FAC3DD9005DE2FA;
+			remoteInfo = "Project11 - PhotoGesture";
+		};
+		7864F8101FAC3DD9005DE2FA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7864F7E81FAC3DD9005DE2FA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7864F7EF1FAC3DD9005DE2FA;
+			remoteInfo = "Project11 - PhotoGesture";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7864F7F01FAC3DD9005DE2FA /* Project11 - PhotoGesture.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Project11 - PhotoGesture.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7864F7F31FAC3DD9005DE2FA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7864F7F51FAC3DD9005DE2FA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7864F7F81FAC3DD9005DE2FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7864F7FA1FAC3DD9005DE2FA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7864F7FD1FAC3DD9005DE2FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7864F7FF1FAC3DD9005DE2FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7864F8041FAC3DD9005DE2FA /* Project11 - PhotoGestureTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Project11 - PhotoGestureTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7864F8081FAC3DD9005DE2FA /* Project11___PhotoGestureTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Project11___PhotoGestureTests.swift"; sourceTree = "<group>"; };
+		7864F80A1FAC3DD9005DE2FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7864F80F1FAC3DD9005DE2FA /* Project11 - PhotoGestureUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Project11 - PhotoGestureUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7864F8131FAC3DD9005DE2FA /* Project11___PhotoGestureUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Project11___PhotoGestureUITests.swift"; sourceTree = "<group>"; };
+		7864F8151FAC3DD9005DE2FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7864F7ED1FAC3DD9005DE2FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7864F8011FAC3DD9005DE2FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7864F80C1FAC3DD9005DE2FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7864F7E71FAC3DD9005DE2FA = {
+			isa = PBXGroup;
+			children = (
+				7864F7F21FAC3DD9005DE2FA /* Project11 - PhotoGesture */,
+				7864F8071FAC3DD9005DE2FA /* Project11 - PhotoGestureTests */,
+				7864F8121FAC3DD9005DE2FA /* Project11 - PhotoGestureUITests */,
+				7864F7F11FAC3DD9005DE2FA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7864F7F11FAC3DD9005DE2FA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7864F7F01FAC3DD9005DE2FA /* Project11 - PhotoGesture.app */,
+				7864F8041FAC3DD9005DE2FA /* Project11 - PhotoGestureTests.xctest */,
+				7864F80F1FAC3DD9005DE2FA /* Project11 - PhotoGestureUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7864F7F21FAC3DD9005DE2FA /* Project11 - PhotoGesture */ = {
+			isa = PBXGroup;
+			children = (
+				7864F7F31FAC3DD9005DE2FA /* AppDelegate.swift */,
+				7864F7F51FAC3DD9005DE2FA /* ViewController.swift */,
+				7864F7F71FAC3DD9005DE2FA /* Main.storyboard */,
+				7864F7FA1FAC3DD9005DE2FA /* Assets.xcassets */,
+				7864F7FC1FAC3DD9005DE2FA /* LaunchScreen.storyboard */,
+				7864F7FF1FAC3DD9005DE2FA /* Info.plist */,
+			);
+			path = "Project11 - PhotoGesture";
+			sourceTree = "<group>";
+		};
+		7864F8071FAC3DD9005DE2FA /* Project11 - PhotoGestureTests */ = {
+			isa = PBXGroup;
+			children = (
+				7864F8081FAC3DD9005DE2FA /* Project11___PhotoGestureTests.swift */,
+				7864F80A1FAC3DD9005DE2FA /* Info.plist */,
+			);
+			path = "Project11 - PhotoGestureTests";
+			sourceTree = "<group>";
+		};
+		7864F8121FAC3DD9005DE2FA /* Project11 - PhotoGestureUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7864F8131FAC3DD9005DE2FA /* Project11___PhotoGestureUITests.swift */,
+				7864F8151FAC3DD9005DE2FA /* Info.plist */,
+			);
+			path = "Project11 - PhotoGestureUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7864F7EF1FAC3DD9005DE2FA /* Project11 - PhotoGesture */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7864F8181FAC3DD9005DE2FA /* Build configuration list for PBXNativeTarget "Project11 - PhotoGesture" */;
+			buildPhases = (
+				7864F7EC1FAC3DD9005DE2FA /* Sources */,
+				7864F7ED1FAC3DD9005DE2FA /* Frameworks */,
+				7864F7EE1FAC3DD9005DE2FA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Project11 - PhotoGesture";
+			productName = "Project11 - PhotoGesture";
+			productReference = 7864F7F01FAC3DD9005DE2FA /* Project11 - PhotoGesture.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7864F8031FAC3DD9005DE2FA /* Project11 - PhotoGestureTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7864F81B1FAC3DD9005DE2FA /* Build configuration list for PBXNativeTarget "Project11 - PhotoGestureTests" */;
+			buildPhases = (
+				7864F8001FAC3DD9005DE2FA /* Sources */,
+				7864F8011FAC3DD9005DE2FA /* Frameworks */,
+				7864F8021FAC3DD9005DE2FA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7864F8061FAC3DD9005DE2FA /* PBXTargetDependency */,
+			);
+			name = "Project11 - PhotoGestureTests";
+			productName = "Project11 - PhotoGestureTests";
+			productReference = 7864F8041FAC3DD9005DE2FA /* Project11 - PhotoGestureTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7864F80E1FAC3DD9005DE2FA /* Project11 - PhotoGestureUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7864F81E1FAC3DD9005DE2FA /* Build configuration list for PBXNativeTarget "Project11 - PhotoGestureUITests" */;
+			buildPhases = (
+				7864F80B1FAC3DD9005DE2FA /* Sources */,
+				7864F80C1FAC3DD9005DE2FA /* Frameworks */,
+				7864F80D1FAC3DD9005DE2FA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7864F8111FAC3DD9005DE2FA /* PBXTargetDependency */,
+			);
+			name = "Project11 - PhotoGestureUITests";
+			productName = "Project11 - PhotoGestureUITests";
+			productReference = 7864F80F1FAC3DD9005DE2FA /* Project11 - PhotoGestureUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7864F7E81FAC3DD9005DE2FA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = zhouxinfang;
+				TargetAttributes = {
+					7864F7EF1FAC3DD9005DE2FA = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+					7864F8031FAC3DD9005DE2FA = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 7864F7EF1FAC3DD9005DE2FA;
+					};
+					7864F80E1FAC3DD9005DE2FA = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 7864F7EF1FAC3DD9005DE2FA;
+					};
+				};
+			};
+			buildConfigurationList = 7864F7EB1FAC3DD9005DE2FA /* Build configuration list for PBXProject "Project11 - PhotoGesture" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7864F7E71FAC3DD9005DE2FA;
+			productRefGroup = 7864F7F11FAC3DD9005DE2FA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7864F7EF1FAC3DD9005DE2FA /* Project11 - PhotoGesture */,
+				7864F8031FAC3DD9005DE2FA /* Project11 - PhotoGestureTests */,
+				7864F80E1FAC3DD9005DE2FA /* Project11 - PhotoGestureUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7864F7EE1FAC3DD9005DE2FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7864F7FE1FAC3DD9005DE2FA /* LaunchScreen.storyboard in Resources */,
+				7864F7FB1FAC3DD9005DE2FA /* Assets.xcassets in Resources */,
+				7864F7F91FAC3DD9005DE2FA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7864F8021FAC3DD9005DE2FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7864F80D1FAC3DD9005DE2FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7864F7EC1FAC3DD9005DE2FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7864F7F61FAC3DD9005DE2FA /* ViewController.swift in Sources */,
+				7864F7F41FAC3DD9005DE2FA /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7864F8001FAC3DD9005DE2FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7864F8091FAC3DD9005DE2FA /* Project11___PhotoGestureTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7864F80B1FAC3DD9005DE2FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7864F8211FAC4B86005DE2FA /* ViewController.swift in Sources */,
+				7864F8141FAC3DD9005DE2FA /* Project11___PhotoGestureUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7864F8061FAC3DD9005DE2FA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7864F7EF1FAC3DD9005DE2FA /* Project11 - PhotoGesture */;
+			targetProxy = 7864F8051FAC3DD9005DE2FA /* PBXContainerItemProxy */;
+		};
+		7864F8111FAC3DD9005DE2FA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7864F7EF1FAC3DD9005DE2FA /* Project11 - PhotoGesture */;
+			targetProxy = 7864F8101FAC3DD9005DE2FA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7864F7F71FAC3DD9005DE2FA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7864F7F81FAC3DD9005DE2FA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7864F7FC1FAC3DD9005DE2FA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7864F7FD1FAC3DD9005DE2FA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7864F8161FAC3DD9005DE2FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7864F8171FAC3DD9005DE2FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7864F8191FAC3DD9005DE2FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Project11 - PhotoGesture/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Ths.Project11---PhotoGesture";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7864F81A1FAC3DD9005DE2FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Project11 - PhotoGesture/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Ths.Project11---PhotoGesture";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7864F81C1FAC3DD9005DE2FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Project11 - PhotoGestureTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Ths.Project11---PhotoGestureTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Project11 - PhotoGesture.app/Project11 - PhotoGesture";
+			};
+			name = Debug;
+		};
+		7864F81D1FAC3DD9005DE2FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Project11 - PhotoGestureTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Ths.Project11---PhotoGestureTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Project11 - PhotoGesture.app/Project11 - PhotoGesture";
+			};
+			name = Release;
+		};
+		7864F81F1FAC3DD9005DE2FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Project11 - PhotoGestureUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Ths.Project11---PhotoGestureUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Project11 - PhotoGesture";
+			};
+			name = Debug;
+		};
+		7864F8201FAC3DD9005DE2FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Project11 - PhotoGestureUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Ths.Project11---PhotoGestureUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Project11 - PhotoGesture";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7864F7EB1FAC3DD9005DE2FA /* Build configuration list for PBXProject "Project11 - PhotoGesture" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7864F8161FAC3DD9005DE2FA /* Debug */,
+				7864F8171FAC3DD9005DE2FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7864F8181FAC3DD9005DE2FA /* Build configuration list for PBXNativeTarget "Project11 - PhotoGesture" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7864F8191FAC3DD9005DE2FA /* Debug */,
+				7864F81A1FAC3DD9005DE2FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7864F81B1FAC3DD9005DE2FA /* Build configuration list for PBXNativeTarget "Project11 - PhotoGestureTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7864F81C1FAC3DD9005DE2FA /* Debug */,
+				7864F81D1FAC3DD9005DE2FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7864F81E1FAC3DD9005DE2FA /* Build configuration list for PBXNativeTarget "Project11 - PhotoGestureUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7864F81F1FAC3DD9005DE2FA /* Debug */,
+				7864F8201FAC3DD9005DE2FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7864F7E81FAC3DD9005DE2FA /* Project object */;
+}

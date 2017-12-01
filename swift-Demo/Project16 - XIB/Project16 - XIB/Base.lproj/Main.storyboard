@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina3_5" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13173"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Project16___XIB" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Eir-LU-aeU">
+                                <rect key="frame" x="10" y="320" width="320" height="150"/>
+                                <mutableString key="text">乔布斯故居位于美国加利福尼亚州洛斯阿托斯市（Los Altos）Crist Drive 大街20
+乔布斯故居
+乔布斯故居(2张)
+ 66号，在旧金山附近。
+2011年10月，乔布斯去世，后该房屋属于他的妹妹帕特里夏·乔布斯。
+2013年10月30日，该城市的历史遗迹委员会一致提议将其故居归为历史性建筑。委员会的成员表示，“正是在这个地方，苹果公司诞生了，50-100台第一批苹果电脑装配起来。所有这些故事都属于加利福尼亚州或是美国的文化遗产，都代表着重要的历史贡献”。[35-36] 
+2014年10月4日，苹果公司首席执行官蒂姆·库克（Tim Cook）向全体员工发送邮件，纪念乔布斯逝世三周年。库克在信中表示，公司将延续这位科技行业领袖的传奇。[37-38] 
+2014年11月3日，在苹果公司CEO库克宣布“出柜”之后，该公司创始人乔布斯在俄罗斯圣彼得堡市的一座纪念碑已被拆除。这座高两米外形为iPhone4的纪念碑座落在圣彼得堡一所大学的技术园内，是2013年1月由俄罗斯一个名为ZEFS(西欧金融联盟)的企业协会树立的。该协会周一表示，这座纪念碑已于上周五被拆除，此举是为了遵守俄罗斯打击“同性恋宣传”的法律。</mutableString>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Steve" translatesAutoresizingMaskIntoConstraints="NO" id="evn-YF-lQw">
+                                <rect key="frame" x="35" y="30" width="250" height="250"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="evn-YF-lQw" secondAttribute="height" multiplier="1:1" id="5o4-Yh-qtP"/>
+                                    <constraint firstAttribute="width" secondItem="evn-YF-lQw" secondAttribute="height" id="d2p-rP-vR2"/>
+                                    <constraint firstAttribute="width" secondItem="evn-YF-lQw" secondAttribute="height" multiplier="1:1" id="es4-KB-FXI"/>
+                                </constraints>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="5o4-Yh-qtP"/>
+                                        <exclude reference="d2p-rP-vR2"/>
+                                        <exclude reference="es4-KB-FXI"/>
+                                    </mask>
+                                </variation>
+                                <variation key="heightClass=compact">
+                                    <mask key="constraints">
+                                        <include reference="5o4-Yh-qtP"/>
+                                        <exclude reference="d2p-rP-vR2"/>
+                                    </mask>
+                                </variation>
+                                <variation key="heightClass=regular">
+                                    <mask key="constraints">
+                                        <include reference="es4-KB-FXI"/>
+                                    </mask>
+                                </variation>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="史蒂夫 乔布斯" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cGN-uq-wMI">
+                                <rect key="frame" x="0.0" y="290" width="320" height="20"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="20" id="akm-Sm-pHf"/>
+                                    <constraint firstAttribute="height" constant="20" id="rVA-of-b86"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="akm-Sm-pHf"/>
+                                        <exclude reference="rVA-of-b86"/>
+                                    </mask>
+                                </variation>
+                                <variation key="heightClass=compact">
+                                    <mask key="constraints">
+                                        <include reference="rVA-of-b86"/>
+                                    </mask>
+                                </variation>
+                                <variation key="heightClass=regular">
+                                    <mask key="constraints">
+                                        <include reference="akm-Sm-pHf"/>
+                                    </mask>
+                                </variation>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="Eir-LU-aeU" firstAttribute="bottom" secondItem="evn-YF-lQw" secondAttribute="bottom" id="0R0-zY-sfu"/>
+                            <constraint firstItem="Eir-LU-aeU" firstAttribute="top" secondItem="cGN-uq-wMI" secondAttribute="bottom" constant="10" id="15W-DO-Tgr"/>
+                            <constraint firstItem="cGN-uq-wMI" firstAttribute="top" secondItem="evn-YF-lQw" secondAttribute="bottom" constant="10" id="6YH-SQ-Ghs"/>
+                            <constraint firstItem="evn-YF-lQw" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="7Vv-tw-gXi"/>
+                            <constraint firstItem="cGN-uq-wMI" firstAttribute="leading" secondItem="evn-YF-lQw" secondAttribute="trailing" constant="10" id="8Z7-36-MfD"/>
+                            <constraint firstItem="cGN-uq-wMI" firstAttribute="top" secondItem="evn-YF-lQw" secondAttribute="top" id="9gt-GD-8xX"/>
+                            <constraint firstItem="Eir-LU-aeU" firstAttribute="trailing" secondItem="SqH-KD-gBf" secondAttribute="trailing" constant="10" id="BMK-2A-pDS"/>
+                            <constraint firstItem="evn-YF-lQw" firstAttribute="leading" secondItem="SqH-KD-gBf" secondAttribute="leading" constant="15" id="DMV-p6-baJ"/>
+                            <constraint firstItem="Eir-LU-aeU" firstAttribute="leading" secondItem="evn-YF-lQw" secondAttribute="trailing" constant="10" id="H3O-2R-Tmu"/>
+                            <constraint firstAttribute="trailing" secondItem="Eir-LU-aeU" secondAttribute="trailing" constant="10" id="H9l-6a-veF"/>
+                            <constraint firstItem="evn-YF-lQw" firstAttribute="top" secondItem="SqH-KD-gBf" secondAttribute="top" constant="10" id="NCD-iB-dla"/>
+                            <constraint firstItem="Eir-LU-aeU" firstAttribute="top" secondItem="cGN-uq-wMI" secondAttribute="bottom" constant="10" id="PSb-At-oiT"/>
+                            <constraint firstAttribute="trailing" secondItem="cGN-uq-wMI" secondAttribute="trailing" constant="10" id="VKC-aB-lQM"/>
+                            <constraint firstItem="cGN-uq-wMI" firstAttribute="leading" secondItem="SqH-KD-gBf" secondAttribute="leading" id="VfC-ag-DFa"/>
+                            <constraint firstItem="Eir-LU-aeU" firstAttribute="leading" secondItem="SqH-KD-gBf" secondAttribute="leading" constant="10" id="brJ-sY-3Z6"/>
+                            <constraint firstItem="evn-YF-lQw" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="c3R-Ey-dh2"/>
+                            <constraint firstItem="SqH-KD-gBf" firstAttribute="trailing" secondItem="cGN-uq-wMI" secondAttribute="trailing" id="gFX-w1-n1w"/>
+                            <constraint firstItem="evn-YF-lQw" firstAttribute="leading" secondItem="SqH-KD-gBf" secondAttribute="leading" constant="15" id="jUu-E5-yDt"/>
+                            <constraint firstItem="evn-YF-lQw" firstAttribute="top" secondItem="SqH-KD-gBf" secondAttribute="top" constant="15" id="kHt-m5-kqU"/>
+                            <constraint firstItem="SqH-KD-gBf" firstAttribute="bottom" secondItem="evn-YF-lQw" secondAttribute="bottom" constant="15" id="klm-Ru-tWj"/>
+                            <constraint firstItem="SqH-KD-gBf" firstAttribute="bottom" secondItem="Eir-LU-aeU" secondAttribute="bottom" constant="10" id="lPF-YY-h0s"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="SqH-KD-gBf"/>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="gFX-w1-n1w"/>
+                                <exclude reference="klm-Ru-tWj"/>
+                                <exclude reference="lPF-YY-h0s"/>
+                                <exclude reference="7Vv-tw-gXi"/>
+                                <exclude reference="DMV-p6-baJ"/>
+                                <exclude reference="NCD-iB-dla"/>
+                                <exclude reference="c3R-Ey-dh2"/>
+                                <exclude reference="jUu-E5-yDt"/>
+                                <exclude reference="kHt-m5-kqU"/>
+                                <exclude reference="6YH-SQ-Ghs"/>
+                                <exclude reference="8Z7-36-MfD"/>
+                                <exclude reference="9gt-GD-8xX"/>
+                                <exclude reference="VKC-aB-lQM"/>
+                                <exclude reference="VfC-ag-DFa"/>
+                                <exclude reference="0R0-zY-sfu"/>
+                                <exclude reference="15W-DO-Tgr"/>
+                                <exclude reference="BMK-2A-pDS"/>
+                                <exclude reference="H3O-2R-Tmu"/>
+                                <exclude reference="H9l-6a-veF"/>
+                                <exclude reference="PSb-At-oiT"/>
+                                <exclude reference="brJ-sY-3Z6"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=compact">
+                            <mask key="constraints">
+                                <exclude reference="klm-Ru-tWj"/>
+                                <exclude reference="DMV-p6-baJ"/>
+                                <include reference="c3R-Ey-dh2"/>
+                                <include reference="jUu-E5-yDt"/>
+                                <exclude reference="kHt-m5-kqU"/>
+                                <include reference="8Z7-36-MfD"/>
+                                <include reference="9gt-GD-8xX"/>
+                                <include reference="VKC-aB-lQM"/>
+                                <include reference="0R0-zY-sfu"/>
+                                <include reference="H3O-2R-Tmu"/>
+                                <include reference="H9l-6a-veF"/>
+                                <include reference="PSb-At-oiT"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=regular">
+                            <mask key="constraints">
+                                <include reference="gFX-w1-n1w"/>
+                                <include reference="lPF-YY-h0s"/>
+                                <include reference="7Vv-tw-gXi"/>
+                                <include reference="NCD-iB-dla"/>
+                                <include reference="6YH-SQ-Ghs"/>
+                                <include reference="VfC-ag-DFa"/>
+                                <include reference="15W-DO-Tgr"/>
+                                <include reference="BMK-2A-pDS"/>
+                                <include reference="brJ-sY-3Z6"/>
+                            </mask>
+                        </variation>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-450" y="45"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Steve" width="250" height="250"/>
+    </resources>
+</document>

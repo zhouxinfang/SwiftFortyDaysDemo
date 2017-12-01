@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13173"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Project11___PhotoGesture" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="hello" translatesAutoresizingMaskIntoConstraints="NO" id="Y13-FX-UTO">
+                                <rect key="frame" x="60" y="269.5" width="255" height="128"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="Y13-FX-UTO" secondAttribute="height" multiplier="255:128" id="sYd-0c-YbI"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="设置图片模糊程度" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FrO-HZ-W6u">
+                                <rect key="frame" x="15" y="35" width="139" height="20"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="20" id="0oi-4q-2Bs"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="20" minValue="0.0" maxValue="100" translatesAutoresizingMaskIntoConstraints="NO" id="iaq-oL-uJa">
+                                <rect key="frame" x="162" y="35" width="200" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="20" id="rWk-vS-jR0"/>
+                                </constraints>
+                                <connections>
+                                    <action selector="sliderValueChangeActionWithSender:" destination="BYZ-38-t0r" eventType="valueChanged" id="74T-Of-hKB"/>
+                                </connections>
+                            </slider>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="Y13-FX-UTO" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="3Sg-H3-xJo"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="iaq-oL-uJa" secondAttribute="trailing" constant="15" id="4Th-08-ev9"/>
+                            <constraint firstItem="FrO-HZ-W6u" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="15" id="8tQ-SB-sVW"/>
+                            <constraint firstItem="iaq-oL-uJa" firstAttribute="leading" secondItem="FrO-HZ-W6u" secondAttribute="trailing" constant="10" id="Ghw-qf-kIB"/>
+                            <constraint firstItem="FrO-HZ-W6u" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="15" id="RZb-M7-cUo"/>
+                            <constraint firstItem="Y13-FX-UTO" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="dHO-y5-W9b"/>
+                            <constraint firstItem="Y13-FX-UTO" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="60" id="ozK-ZS-dUq"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Y13-FX-UTO" secondAttribute="trailing" constant="60" id="tgs-hX-tXf"/>
+                            <constraint firstItem="iaq-oL-uJa" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="15" id="yY7-sS-DNM"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="imageView" destination="Y13-FX-UTO" id="wRh-kN-wmH"/>
+                        <outlet property="slider" destination="iaq-oL-uJa" id="Cbv-yW-Nmu"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="24.800000000000001" y="30.134932533733135"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="hello" width="640" height="640"/>
+    </resources>
+</document>
